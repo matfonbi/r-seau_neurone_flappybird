@@ -116,6 +116,7 @@ class FlappyBirdEnv:
     """
 
     def __init__(self, render=False, screen = 0):
+    #def __init__(self):
         self.bird = None
         self.pipes = []
         self.score = 0
